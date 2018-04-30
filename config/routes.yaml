@@ -1,3 +1,10 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /
+    controller: App\Controller\DefaultController:index
+secondPage:
+    path: /secondpage
+    controller: App\Controller\DefaultController:secondPage
+
+my_first_controller:
+    path: /myfirstpage
+    controller: App\Controller\MyFirstController:myFirstPage
